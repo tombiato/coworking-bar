@@ -8,8 +8,10 @@ const Home = () => {
 				<h2 className='text-4xl'>Welcome to Coworker Bar</h2>
 				<p className='text-sm'>Probably your best office !</p>
 			</div>
-			<Bars />
-			<Restaurants />
+			<div className='container mx-auto'>
+				<Bars />
+				<Restaurants />
+			</div>
 		</>
 	);
 };
